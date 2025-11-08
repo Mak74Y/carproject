@@ -48,5 +48,4 @@ def predict():
     return render_template("result.html", price=result)
 
 
-if __name__ == "__main__":
-    app.run(debug=True)
+
